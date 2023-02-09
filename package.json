@@ -1,0 +1,20 @@
+{
+  "name": "socila-media-backend",
+  "version": "1.0.0",
+  "description": "Designing the Backend of Social Media App",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Swraj Kant Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongoose": "^6.9.1",
+    "morgan": "^1.10.0"
+  }
+}
