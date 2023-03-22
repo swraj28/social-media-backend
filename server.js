@@ -36,8 +36,6 @@ app.use("/api/users",userRoute);
 app.use("/api/auth",authRoute);
 app.use("/api/posts",postRoute);
 
-
-
 app.listen(8000, (err) => {
   if(err){
     console.log('Error While Loading the Server');
